@@ -54,7 +54,7 @@ botaoAdicionar.addEventListener("click", function(){
     var pesoTd = document.createElement("td");
     var alturaTd = document.createElement("td");
     var gorduraTd = document.createElement("td");
-    var imcTd = document.createElement("td");
+    var tdImc = document.createElement("td");
 
     nomeTd.textContent = nome;
     pesoTd.textContent = peso;
